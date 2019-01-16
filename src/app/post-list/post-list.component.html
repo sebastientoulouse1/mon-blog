@@ -1,0 +1,6 @@
+<!--création d'une boucle for pour afficher chaque élément de l'array Posts
+et de tous les éléments de post-list-item --> 
+
+<app-post-list-item *ngFor="let post of Posts"
+                          [PostTitle]="post.title"
+                          [content]="post.content"> </app-post-list-item> 
